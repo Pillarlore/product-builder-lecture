@@ -66,6 +66,39 @@ h1 {
   backdrop-filter: blur(12px);
 }
 
+.comments-card {
+  margin-top: 24px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.comments-header {
+  margin-bottom: 20px;
+}
+
+.comments-header h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+#disqus_thread {
+  min-height: 220px;
+}
+
+.comments-card noscript {
+  display: block;
+  margin-top: 12px;
+  color: var(--muted);
+}
+
+.comments-card a {
+  color: var(--accent-strong);
+}
+
 .contact-form {
   display: grid;
   gap: 16px;
